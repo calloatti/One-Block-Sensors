@@ -1,0 +1,9 @@
+{
+  "Name": "One Block Sensors",
+  "Version": "1.1.0",
+  "Id": "Calloatti.OneBlockSensors",
+  "MinimumGameVersion": "1.0.12.5",
+  "Description": "Adds One Block Sensors",
+  "RequiredMods": [],
+  "OptionalMods": []
+}
