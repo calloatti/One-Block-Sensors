@@ -1,4 +1,4 @@
-{
+﻿{
   "BuildingSpec": {
     "SelectionSoundName": "Automation",
     "LoopingSoundName": "",
@@ -106,8 +106,16 @@
       "CollidersSpec": {
         "BoxColliders": [
           {
-            "Center": { "X": 0.5, "Y": 0.446, "Z": 0.5 },
-            "Size": { "X": 0.7, "Y": 0.87, "Z": 0.7 }
+            "Center": {
+              "X": 0.5,
+              "Y": 0.446,
+              "Z": 0.5
+            },
+            "Size": {
+              "X": 0.7,
+              "Y": 0.87,
+              "Z": 0.7
+            }
           }
         ],
         "SphereColliders": [],
