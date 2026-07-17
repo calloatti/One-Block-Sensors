@@ -1,0 +1,5 @@
+ID,Text,Comment
+Building.OneBlockDepthSensor.DisplayName,"Jednoblokowy czujnik głębokości",
+Building.OneBlockDepthSensor.Description,"Mierzy głębokość wody poniżej/powyżej. Nieźle.",
+Building.OneBlockContaminationSensor.DisplayName,"Jednoblokowy czujnik skażenia",
+Building.OneBlockContaminationSensor.Description,"Mierzy skażenie wody",

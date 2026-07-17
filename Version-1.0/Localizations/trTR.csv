@@ -1,0 +1,5 @@
+ID,Text,Comment
+Building.OneBlockDepthSensor.DisplayName,"Tek Blok Derinlik Sensörü",
+Building.OneBlockDepthSensor.Description,"Altındaki/üstündeki su derinliğini ölçer. Güzel.",
+Building.OneBlockContaminationSensor.DisplayName,"Tek Blok Kirlilik Sensörü",
+Building.OneBlockContaminationSensor.Description,"Su kirliliğini ölçer",

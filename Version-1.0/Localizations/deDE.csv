@@ -1,0 +1,5 @@
+ID,Text,Comment
+Building.OneBlockDepthSensor.DisplayName,"Ein-Block-Tiefensensor",
+Building.OneBlockDepthSensor.Description,"Misst die Wassertiefe darunter/darüber. Nett.",
+Building.OneBlockContaminationSensor.DisplayName,"Ein-Block-Kontaminationssensor",
+Building.OneBlockContaminationSensor.Description,"Misst die Wasserverschmutzung",
