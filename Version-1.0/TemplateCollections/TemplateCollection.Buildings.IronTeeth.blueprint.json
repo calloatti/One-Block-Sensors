@@ -2,8 +2,8 @@
   "TemplateCollectionSpec": {
     "CollectionId": "Buildings.IronTeeth",
     "Blueprints#append": [
-      "Buildings/Automation/OneBlockDepthSensor.IronTeeth.blueprint",
-      "Buildings/Automation/OneBlockContaminationSensor.IronTeeth.blueprint"
+      "Buildings/Automation/OneBlock/OneBlockDepthSensor.IronTeeth.blueprint",
+      "Buildings/Automation/OneBlock/OneBlockContaminationSensor.IronTeeth.blueprint"
     ]
   }
 }

@@ -17,7 +17,7 @@
     "UndergroundModelDepth": 0
   },
   "TemplateSpec": {
-    "TemplateName": "OneBlockDepthSensor.IronTeeth",
+    "TemplateName": "OneBlockDepthSensor.Folktails",
     "BackwardCompatibleTemplateNames": [],
     "RequiredFeatureToggle": "",
     "DisablingFeatureToggle": ""
@@ -52,14 +52,14 @@
     "DisplayNameLocKey": "Building.OneBlockDepthSensor.DisplayName",
     "DescriptionLocKey": "Building.OneBlockDepthSensor.Description",
     "FlavorDescriptionLocKey": "",
-    "Icon": "Resources/Automation/OneBlockDepthSensorIcon"
+    "Icon": "Resources/Buildings/Automation/OneBlock/OneBlockDepthSensorIcon"
   },
   "ConstructionSiteProgressVisualizerSpec": {"ProgressThresholds": [0]},
   "DepthSensorSpec": {"SensorCoordinates": {"X": 0, "Y": 0, "Z": 3}},
   "DefaultIlluminatorColorSpec": {"ColorId": "Automator"},
   "Children": {
     "#Finished": {
-      "TimbermeshSpec": {"Model": "Buildings/Automation/Indicator/Indicator.IronTeeth.Model"},
+      "TimbermeshSpec": {"Model": "Buildings/Automation/Indicator/Indicator.Folktails.Model"},
       "CollidersSpec": {
         "BoxColliders": [{"Center": {"X": 0.5, "Y": 0.446, "Z": 0.5}, "Size": {"X": 0.7, "Y": 0.87, "Z": 0.7}}],
         "SphereColliders": [],
@@ -72,7 +72,7 @@
           "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
         },
         "ConstructionStage0": {
-          "TimbermeshSpec": {"Model": "Buildings/Automation/Indicator/Indicator.IronTeeth.ConstructionStage0.Model"}
+          "TimbermeshSpec": {"Model": "Buildings/Automation/Indicator/Indicator.Folktails.ConstructionStage0.Model"}
         }
       }
     }

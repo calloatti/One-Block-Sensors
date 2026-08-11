@@ -2,8 +2,8 @@
   "TemplateCollectionSpec": {
     "CollectionId": "Buildings.Folktails",
     "Blueprints#append": [
-      "Buildings/Automation/OneBlockDepthSensor.Folktails.blueprint",
-      "Buildings/Automation/OneBlockContaminationSensor.Folktails.blueprint"
+      "Buildings/Automation/OneBlock/OneBlockDepthSensor.Folktails.blueprint",
+      "Buildings/Automation/OneBlock/OneBlockContaminationSensor.Folktails.blueprint"
     ]
   }
 }
