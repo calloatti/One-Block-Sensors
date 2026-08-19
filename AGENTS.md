@@ -14,3 +14,8 @@ Adds 1x1 sensor buildings (water depth, temperature, etc.) that fit in tight spa
 
 ## Source Architecture (`Version-1.0/Source/`)
 - No source files in `Version-1.0/Source/` — likely blueprint/config-only mod
+
+## Hard Rule
+DO NOT EVER TOUCH THE DEPLOY FOLDER.
+
+BUILD DOES EVERYTHING, NEVER EVER MESS WITH THE DEPLOY PROCESS.
