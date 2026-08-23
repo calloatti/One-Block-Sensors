@@ -1,9 +1,9 @@
-﻿{
+{
   "BuildingSpec": {
     "SelectionSoundName": "Automation",
     "LoopingSoundName": "",
-    "BuildingCost": [{"Id": "Gear", "Amount": 4}, {"Id": "ScrapMetal", "Amount": 8}],
-    "ScienceCost": 200,
+    "BuildingCost": [{"Id": "Gear", "Amount": 8}, {"Id": "MetalBlock", "Amount": 8}],
+    "ScienceCost": 400,
     "PlaceFinished": false,
     "FinishableWithBeaversOnSite": false,
     "DrawRangeBoundsOnIt": false
@@ -17,7 +17,7 @@
     "UndergroundModelDepth": 0
   },
   "TemplateSpec": {
-    "TemplateName": "OneBlockDepthSensor.Folktails",
+    "TemplateName": "OneBlockContaminationSensor.Emberpelts",
     "BackwardCompatibleTemplateNames": [],
     "RequiredFeatureToggle": "",
     "DisablingFeatureToggle": ""
@@ -41,7 +41,7 @@
   },
   "PlaceableBlockObjectSpec": {
     "ToolGroupId": "Automation",
-    "ToolOrder": 41,
+    "ToolOrder": 51,
     "ToolShape": "Square",
     "Layout": "Single",
     "CustomPivot": {"HasCustomPivot": true, "Coordinates": {"X": 0.5, "Y": 0.5, "Z": 0}},
@@ -49,17 +49,17 @@
     "DevModeTool": false
   },
   "LabeledEntitySpec": {
-    "DisplayNameLocKey": "Building.OneBlockDepthSensor.DisplayName",
-    "DescriptionLocKey": "Building.OneBlockDepthSensor.Description",
+    "DisplayNameLocKey": "Building.OneBlockContaminationSensor.DisplayName",
+    "DescriptionLocKey": "Building.OneBlockContaminationSensor.Description",
     "FlavorDescriptionLocKey": "",
-    "Icon": "Resources/Buildings/Automation/OneBlock/OneBlockDepthSensorIcon"
+    "Icon": "Resources/Buildings/Automation/OneBlock/OneBlockContaminationSensorIcon"
   },
   "ConstructionSiteProgressVisualizerSpec": {"ProgressThresholds": [0]},
-  "DepthSensorSpec": {"SensorCoordinates": {"X": 0, "Y": 0, "Z": 16}},
+  "ContaminationSensorSpec": {"SensorCoordinates": {"X": 0, "Y": 0, "Z": 0}},
   "DefaultIlluminatorColorSpec": {"ColorId": "Automator"},
   "Children": {
     "#Finished": {
-      "TimbermeshSpec": {"Model": "Buildings/Automation/Indicator/Indicator.Folktails.Model"},
+      "TimbermeshSpec": {"Model": "Buildings/Automation/Indicator/Indicator.Emberpelts.Model"},
       "CollidersSpec": {
         "BoxColliders": [{"Center": {"X": 0.5, "Y": 0.446, "Z": 0.5}, "Size": {"X": 0.7, "Y": 0.87, "Z": 0.7}}],
         "SphereColliders": [],
@@ -72,7 +72,7 @@
           "BlueprintPath": "ConstructionBases/ConstructionBase1x1/ConstructionBase1x1.blueprint"
         },
         "ConstructionStage0": {
-          "TimbermeshSpec": {"Model": "Buildings/Automation/Indicator/Indicator.Folktails.ConstructionStage0.Model"}
+          "TimbermeshSpec": {"Model": "Buildings/Automation/Indicator/Indicator.Emberpelts.ConstructionStage0.Model"}
         }
       }
     }

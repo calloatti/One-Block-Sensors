@@ -55,7 +55,7 @@
     "Icon": "Resources/Buildings/Automation/OneBlock/OneBlockDepthSensorIcon"
   },
   "ConstructionSiteProgressVisualizerSpec": {"ProgressThresholds": [0]},
-  "DepthSensorSpec": {"SensorCoordinates": {"X": 0, "Y": 0, "Z": 3}},
+  "DepthSensorSpec": {"SensorCoordinates": {"X": 0, "Y": 0, "Z": 16}},
   "DefaultIlluminatorColorSpec": {"ColorId": "Automator"},
   "Children": {
     "#Finished": {

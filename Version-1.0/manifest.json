@@ -1,9 +1,9 @@
 ﻿{
   "Name": "One Block Sensors",
-  "Version": "1.1.1",
+  "Version": "1.1.2",
   "Id": "Calloatti.OneBlockSensors",
   "MinimumGameVersion": "1.0.12.5",
   "Description": "Adds One Block Sensors",
   "RequiredMods": [],
-  "OptionalMods": []
+  "OptionalMods": [{"Id": "Emberpelts"}]
 }
